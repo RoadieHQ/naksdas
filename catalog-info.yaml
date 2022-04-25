@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: naksdas
+  title: Asdad
+  description: A static HTML website. Just like the good old days.
+  links:
+    - url: https://RoadieHQ.github.io/naksdas/
+      title: Live website
+  annotations:
+    github.com/project-slug: RoadieHQ/naksdas
+spec:
+  type: website
+  owner: engineering
+  lifecycle: experimental
